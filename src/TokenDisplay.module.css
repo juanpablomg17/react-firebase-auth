@@ -1,0 +1,59 @@
+.token {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .tokenValue {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 40rem;
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  .copyButton {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 1rem;
+  }
+  
+  .copyButton:hover {
+    background-color: #0b5ed7;
+  }
+  
+  .getTokenButton {
+    background-color: #ffc107;
+    color: #212529;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 1rem;
+  }
+  
+  .getTokenButton:hover {
+    background-color: #e0a800;
+  }
+  
+  @media (max-width: 768px) {
+    .tokenValue {
+      font-size: 0.9rem;
+    }
+  
+    .copyButton, .getTokenButton {
+      font-size: 0.9rem;
+    }
+  }
+  
